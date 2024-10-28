@@ -5,45 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <h1>My Portfolio</h1>
+        <a href="#" class="logo"><span>Jana</span> Abdelkader</a>
         <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
         </nav>
+        <a href="#" class="contact">Contact Me</a>
     </header>
-
-    <section id="home" class="home">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Hi! I'm [Your Name], a passionate web developer.</p>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Jana</span>, a web developer</h1>
+            <p>Welcome to my portfolio! Here are some of my works.</p>
+        </div>
+        <div class="imgbox"> 
+            <img src="image.jpg" alt="Profile Image">
+        </div>
     </section>
-
-    <section id="about" class="about">
+    <section class="about">
         <h2>About Me</h2>
-        <p>I'm a web developer with experience in HTML, CSS, and JavaScript. I love creating user-friendly and accessible web applications.</p>
+        <p>I'm a web developer with experience in HTML, CSS, and JavaScript.</p>
     </section>
-
-    <section id="projects" class="projects">
+    <section class="projects">
         <h2>My Projects</h2>
         <ul>
-            <li><strong>Project 1:</strong> A web application that does XYZ.</li>
-            <li><strong>Project 2:</strong> A responsive website for ABC.</li>
-            <li><strong>Project 3:</strong> A mobile app that helps with DEF.</li>
+            <li>Project 1: Description</li>
+            <li>Project 2: Description</li>
+            <li>Project 3: Description</li>
         </ul>
     </section>
-
-    <section id="contact" class="contact">
+    <section class="contact-form">
         <h2>Contact Me</h2>
         <p>Email: your.email@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
     </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 My Portfolio</p>
+    <footer>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        </div>
+        <p>&copy; 2024 Jana Abdelkader</p>
     </footer>
 </body>
 </html>
