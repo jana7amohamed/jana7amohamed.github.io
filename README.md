@@ -68,19 +68,17 @@
     </style>
 </head>
 <body>
-
     <header>
         <h1>Jana Abdelkader's Poetry Portfolio</h1>
         <p>Poet | Storyteller | Voice of Emotions</p>
     </header>
 
-    <div class="container">
+  <div class="container">
         <section class="section about">
             <h2>About Me</h2>
             <p>Hello! I'm Jana Abdelkader, a poet passionate about capturing emotions, life’s complexities, and unique perspectives. My poetry reflects my personal journey, and through each recitation, I hope to evoke emotions and inspire reflection.</p>
         </section>
-
-        <section class="section poems">
+ <section class="section poems">
             <h2>Featured Poems</h2>
             <div class="poem">
                 <div class="poem-title">"Whispers of the Heart"</div>
@@ -92,7 +90,7 @@
             </div>
         </section>
 
-        <section class="section recordings">
+  <section class="section recordings">
             <h2>Audio Recitations</h2>
             <div class="recording">
                 <div class="recording-title">"Whispers of the Heart" (Audio)</div>
@@ -110,19 +108,19 @@
             </div>
         </section>
 
-        <section class="section inspiration">
+ <section class="section inspiration">
             <h2>My Inspiration</h2>
             <p>Every poem I write and recite is a piece of my soul, inspired by moments of joy, reflection, and heartache. Poetry, to me, is a journey of self-discovery, and I draw inspiration from nature, relationships, and the shared human experience.</p>
         </section>
 
-        <section class="section contact">
+ <section class="section contact">
             <h2>Contact</h2>
             <p>Email: jana@example.com</p>
             <p>Follow me on Instagram: <a href="https://www.instagram.com/jana_poetry" target="_blank">@jana_poetry</a></p>
         </section>
     </div>
 
-    <footer>
+  <footer>
         <p>&copy; 2024 Jana Abdelkader</p>
     </footer>
 
