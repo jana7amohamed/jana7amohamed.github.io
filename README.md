@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Corrected spelling -->
     <title>Simple Portfolio</title>
     <link rel="stylesheet" href="style.css"> <!-- Ensure this file exists in the same directory -->
