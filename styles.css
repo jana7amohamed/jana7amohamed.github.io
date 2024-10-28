@@ -1,132 +1,19 @@
-/* General styles */
-html, body {
-    background-color: #e0f7fa; /* Change to your desired background color */
-    margin: 0; /* Removes default margin */
-    height: 100%; /* Ensures the body takes full height */
-    font-family: Arial, sans-serif; /* Sets a default font */
+body {
+    background-color: #f3e5f5; /* Change background color */
+    font-family: Arial, sans-serif; /* Basic font styling */
 }
 
-/* Header styles */
 .header {
-    background-color: #333; /* Dark background for header */
-    color: #fff; /* White text color */
-    padding: 20px; /* Padding for header */
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Space between logo and nav */
-    align-items: center; /* Center items vertically */
+    text-align: center;
+    padding: 20px;
 }
 
-/* Logo styles */
-.logo {
-    font-size: 24px; /* Logo font size */
-    text-decoration: none; /* No underline */
-    color: #fff; /* White text color */
-}
-
-/* Navbar styles */
-.navbar {
-    display: flex; /* Flexbox layout for navbar */
-}
-
-.navbar a {
-    color: #fff; /* White text color */
-    padding: 15px 20px; /* Padding for nav links */
-    text-decoration: none; /* No underline */
-}
-
-.navbar a.active {
-    background-color: #555; /* Active link background color */
-}
-
-/* Contact button styles */
-.contact {
-    color: #fff; /* White text color */
-    padding: 10px 15px; /* Padding for contact button */
-    text-decoration: none; /* No underline */
-    background-color: #e74c3c; /* Contact button color */
-    border-radius: 5px; /* Rounded corners */
-}
-
-/* Home section styles */
 .home {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Space between content and image */
-    padding: 50px; /* Padding for home section */
+    text-align: center;
+    margin: 20px;
 }
 
-.home-content {
-    max-width: 500px; /* Limit width of home content */
-}
-
-.home-content h1 {
-    font-size: 36px; /* Heading font size */
-}
-
-.btn-box {
-    margin-top: 20px; /* Space above button box */
-}
-
-.btn-b1, .btn-b2 {
-    padding: 10px 15px; /* Padding for buttons */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-.btn-b1 {
-    background-color: #3498db; /* Button 1 color */
-    color: #fff; /* White text color */
-    margin-right: 10px; /* Space between buttons */
-}
-
-.btn-b2 {
-    background-color: #2ecc71; /* Button 2 color */
-    color: #fff; /* White text color */
-}
-
-/* About section styles */
-.about {
-    display: flex; /* Flexbox layout */
-    padding: 50px; /* Padding for about section */
-}
-
-.about-img {
-    flex: 1; /* Takes up one part of the flex layout */
-}
-
-.about-content {
-    flex: 1; /* Takes up one part of the flex layout */
-    padding-left: 20px; /* Space between image and text */
-}
-
-.about-content .heading {
-    font-size: 28px; /* About heading font size */
-}
-
-/* Contact form section styles */
-.contact-form {
-    padding: 50px; /* Padding for contact form section */
-}
-
-.contact-me {
-    font-size: 28px; /* Contact heading font size */
-}
-
-/* Footer styles */
-footer {
-    background-color: #333; /* Dark background for footer */
-    color: #fff; /* White text color */
-    text-align: center; /* Center text in footer */
-    padding: 20px; /* Padding for footer */
-}
-
-.social {
-    margin-top: 10px; /* Space above social links */
-}
-
-.social a {
-    color: #fff; /* White text color for icons */
-    margin: 0 10px; /* Space between icons */
-    text-decoration: none; /* No underline */
-    font-size: 24px; /* Icon size */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
 }
