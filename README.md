@@ -2,34 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport"
+    content = "width=device-width, inintial-scale=1.0">
+    <title> Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/
+    boxicons.min.css" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Photographer | Storyteller | Visual Artist</p>
+    <header class="header">
+        <a href="#" class="logo"><span>Han</span>nah</
+            a>
+
+   = <nav class="navbar">
+        <a href ="#" class="active">portfolio</a>
+        <a href ="#">service</a>
+        <a href ="#">experience</a>
+        <a href ="#">projects</a>
+        <a href ="#">education</a>
+    </nav> 
+
+ <a href ="#" class="contact"> contact me</a>
     </header>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="gallery">
-            <!-- Images will go here -->
+    <section class="home">
+        <div class="home-content">
+            <h3> Hi</h3>
+            <h1> I'm <span> Jana <br> </span> a student at Alexandria 
+            STEM school</h1>
+            <p>write hena ai 7aga</p>
+          <div class="btn-box">
+            <button class="btn-b1"> Hire me </button>
+            <button class="btn-b2"> experience </button>
+          </div>
+        </div>
+        <div class="imgbox"> 
+            <img src="image.jbg" alt="">
         </div>
     </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief description about yourself, your passion, and your work.</p>
+    <section class="about">
+        <div class="about-img">
+            <img src="image.jbg" alt="">
+        </div>
+        <div class="about-content">
+        <h2 class="heading"> About <span>Me</span> </h2> 
+           <h3> frontend <span>Developer</span></h3>
+            <p> Anythinggg </p>
+            <a href="#"  class="btn-2">Experience</a>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <section class="contact-form">
+        <h2 class="contact-me"> contact <span> Me </span> </h2>
     </section>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <div class="social">
+            <a href="#"><i class="bx
+             bxl-facebook-circle"></i></a>
+             <a href="#"><i class="bx
+             bxl-linkedin-aquare"></i></a>
+             <a href="#"><i class="bx
+             bxl-instagram-alt"></i></a>
+        </div>
     </footer>
 </body>
+
 </html>
